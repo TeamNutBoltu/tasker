@@ -1,0 +1,6 @@
+1
+user
+3
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY
+username VARCHAR(32)
+password varchar(32)
