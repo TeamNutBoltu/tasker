@@ -26,6 +26,8 @@ for($i = 1; $i <= $table_number; $i++){
 	
 	$sql .= ' ) ;';
 	
+	$sql = "DROP TABLE ".$table_name.";";
+	
 	echo $sql.'<br/>';
 	
 	$con = mysql_connect(HOST, USERNAME, PASSWORD) or die("Can't connect to the database.<br/>");
