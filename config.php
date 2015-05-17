@@ -6,7 +6,7 @@ define('HOST', 'localhost'); // Your database host name or ip of the database.
 
 define('USERNAME', 'root'); // Username of your database.
 
-define('PASSWORD', '1'); // Password of your database user.
+define('PASSWORD', '00'); // Password of your database user.
 
 define('DATABASE', 'tasker'); // Name of your database.
 
