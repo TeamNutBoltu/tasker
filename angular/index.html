@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 
-<html ng-app lang="eng">
+<html ng-app='todoApp'>
 	
 	<head>
 		
 		<meta charset="utf-8" />
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<script src="angular.min.js"></script>
+		<script src='todo.js'></script>
+		
+		<style href='style.css'></style>
 		
 	</head>
 		
-	<body>
+	<div ng-controller='TodoListController as todoList'>
 		
-		<div>
-			
-			<label>Name: </label>
-			<input type='text' ng-model='your_name' placeholder='enter your name here' />
-			<hr />
-			<h1> Hello {{your_name}}!</h1>
-			
+		<div class='sims'>
+			<span ng-click='todoList.sim1()'>{{todoList.sim_one}}</span>
+			<span ng-click='todoList.sim2()'>{{todoList.sim_two}}</span>
 		</div>
 		
-	</body>
+	</div>
 	
 </html>
